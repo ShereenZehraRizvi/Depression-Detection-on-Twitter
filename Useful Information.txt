@@ -1,0 +1,35 @@
+Steps for project completion:
+1. Get sentence (dataset, user input, Twitter API)      DONE
+2. Tokenize sentence (NLTK)                             DONE
+3. Generate word embeddings (Word2Vec)                  DONE
+4. Create appropriate data shape (NumPy)                DONE
+5. Train neural network (Keras)                         DONE
+6. Test neural network (Keras)                          DONE
+7. Create API (Flask, Postman)                      
+8. Create frontend (Basic HTML, CSS)
+9. Connect frontend with API
+
+INPUT SHAPE for LSTM:
+[
+    [
+        [0.535],
+        [0.535],
+        [0.535],
+        [0.535],
+        [0.535],
+        [0.535],
+        [0.535],
+        .......
+    ], .........
+]
+
+OUTPUT SHAPE:
+[
+    [0 1],
+    [0 1],
+    [0 1],
+    ......
+]
+
+0 1 = Sad
+1 0 = Joyful
